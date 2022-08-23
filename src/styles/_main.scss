@@ -5,7 +5,7 @@
   display: flex;
 
   .mainLeftContainer {
-    width: 300px;
+    width: 340px;
     background-color: #161c23;
 
     .mainLeft {
@@ -43,7 +43,7 @@
 
       .recentRepo {
         width: 100%;
-        margin: 30px auto 8px;
+        margin: 24px auto 8px;
         .recentRepos {
           display: flex;
           align-items: center;
@@ -55,7 +55,6 @@
           }
 
           button {
-            display: inline-block;
             cursor: pointer;
             width: 64px;
             height: 28px;
@@ -81,6 +80,11 @@
           border: 1px solid #30363d;
           border-radius: 4px;
         }
+        p {
+          margin: 12px auto;
+          color: #8b949e;
+          font-size: 12px;
+        }
       }
       .mainLeftLists {
         display: flex;
@@ -90,10 +94,10 @@
           gap: 8px;
           justify-content: flex-start;
           align-items: center;
-          margin: 8px 0;
+          margin: 6px 0;
 
           img {
-            width: 20px;
+            width: 18px;
             object-fit: contain;
             border-radius: 50%;
           }
@@ -106,7 +110,7 @@
         a {
           text-decoration: none;
           color: #8b949e;
-          font-size: 14px;
+          font-size: 12px;
           margin: 14px 0 20px;
         }
       }
@@ -115,5 +119,16 @@
 
   .mainRight {
     flex: 1;
+    background-color: #010409;
+    color: #c9d1d9;
+
+    .marginRightContainer {
+      padding: 40px;
+
+      .menu {
+        display: flex;
+        gap: 10px;
+      }
+    }
   }
 }

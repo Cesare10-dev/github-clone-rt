@@ -46,10 +46,49 @@ function Main() {
 
           {/* Line */}
           <div className="line" />
+
+          <div className="recentRepo">
+            <div className="recentRepos">
+              <h2>Recent Activities</h2>
+            </div>
+            <p>
+              When you take actions across GitHub, we’ll provide links to that
+              activity here.
+            </p>
+          </div>
+
+          {/* Line */}
+          <div className="line" />
+
+          <div className="recentRepo">
+            <div className="recentRepos">
+              <h2>Your teams</h2>
+            </div>
+            <input type="text" placeholder="Find a team..." />
+          </div>
         </div>
       </div>
       {/* Right */}
-      <div className="mainRight">mainright</div>
+      <div className="mainRight">
+        <div className="marginRightContainer">
+          <div className="menu">
+            <h2>Following</h2>
+            <h2>For you</h2>
+          </div>
+
+          <div className="box">
+            <h2>
+              Discover interesting projects and people to populate your personal
+              news feed.
+            </h2>
+            <p>
+              Your news feed helps you keep up with recent activity on
+              repositories you <span>watch</span> or <span>star</span> and
+              people you <span>star</span>.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }

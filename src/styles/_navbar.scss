@@ -28,6 +28,11 @@
       border: 1px solid #30363d;
       border-radius: 4px;
     }
+
+    input:focus {
+      width: 400px;
+      transition: width ease-out 0.3s;
+    }
   }
 
   .navCenter {
