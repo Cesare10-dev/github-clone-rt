@@ -1,5 +1,119 @@
 .main {
   background-color: #0c1117;
   color: white;
-  height: 94vh;
+  height: 95vh;
+  display: flex;
+
+  .mainLeftContainer {
+    width: 300px;
+    background-color: #161c23;
+
+    .mainLeft {
+      max-width: 240px;
+      width: 100%;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .mainLeftName {
+        display: flex;
+        gap: 4px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100%;
+
+        img {
+          width: 20px;
+          object-fit: contain;
+          border-radius: 50%;
+        }
+
+        h2 {
+          font-size: 16px;
+          color: #c9d1d9;
+        }
+      }
+      .line {
+        height: 1px;
+        background-color: #30363d;
+        width: 100%;
+      }
+
+      .recentRepo {
+        width: 100%;
+        margin: 30px auto 8px;
+        .recentRepos {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          h2 {
+            font-size: 14px;
+            color: #c9d1d9;
+          }
+
+          button {
+            display: inline-block;
+            cursor: pointer;
+            width: 64px;
+            height: 28px;
+            border: none;
+            background-color: #2a913d;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 6px;
+          }
+          button:hover {
+            background-color: #2ea043;
+          }
+        }
+        input {
+          width: 100%;
+          margin: 10px 0;
+          height: 34px;
+          background-color: #0c1117;
+          font-size: 14px;
+          padding-left: 10px;
+          font-weight: bold;
+          border: 1px solid #30363d;
+          border-radius: 4px;
+        }
+      }
+      .mainLeftLists {
+        display: flex;
+        flex-direction: column;
+        .item {
+          display: flex;
+          gap: 8px;
+          justify-content: flex-start;
+          align-items: center;
+          margin: 8px 0;
+
+          img {
+            width: 20px;
+            object-fit: contain;
+            border-radius: 50%;
+          }
+
+          h2 {
+            font-size: 14px;
+            color: #c9d1d9;
+          }
+        }
+        a {
+          text-decoration: none;
+          color: #8b949e;
+          font-size: 14px;
+          margin: 14px 0 20px;
+        }
+      }
+    }
+  }
+
+  .mainRight {
+    flex: 1;
+  }
 }
