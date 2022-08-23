@@ -1,13 +1,12 @@
 import "./App.scss";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="box">
-        <h2>GitHub clone</h2>
-      </div>
+      <Main />
     </div>
   );
 }
