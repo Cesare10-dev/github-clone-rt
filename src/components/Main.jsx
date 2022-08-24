@@ -76,6 +76,9 @@ function Main() {
             <h2>For you</h2>
           </div>
 
+          {/* Line */}
+          <div className="line" />
+
           <div className="box">
             <h2>
               Discover interesting projects and people to populate your personal

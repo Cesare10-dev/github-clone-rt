@@ -1,7 +1,6 @@
 .main {
   background-color: #0c1117;
   color: white;
-  height: 95vh;
   display: flex;
 
   .mainLeftContainer {
@@ -15,6 +14,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      overflow-y: scroll;
+      scrollbar-color: transparent;
+      height: 100%;
 
       .mainLeftName {
         display: flex;
@@ -127,8 +129,53 @@
 
       .menu {
         display: flex;
-        gap: 10px;
+        gap: 24px;
+
+        h2 {
+          font-size: 16px;
+          margin-left: 8px;
+          cursor: pointer;
+          padding: 6px;
+          border-radius: 4px;
+          transition-delay: 0.04s;
+        }
+
+        h2:hover {
+          background-color: #161c23;
+        }
+      }
+
+      .line {
+        height: 1px;
+        background-color: #30363d;
+        width: 100%;
+        margin: 14px 0 20px;
+      }
+
+      .box {
+        // background-color: rgb(29, 27, 27);
+        background-color: #161c23;
+        border-radius: 4px;
+        padding: 26px;
+
+        p {
+          margin: 14px 0;
+        }
+
+        span {
+          color: rgb(93, 118, 242);
+        }
       }
     }
   }
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.mainLeft::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mainLeft {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
