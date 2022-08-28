@@ -1,0 +1,50 @@
+.mainRight {
+  flex: 1;
+  background-color: #010409;
+  color: #c9d1d9;
+  height: 100%;
+
+  .marginRightContainer {
+    padding: 40px;
+
+    .menu {
+      display: flex;
+      gap: 24px;
+
+      h2 {
+        font-size: 16px;
+        margin-left: 8px;
+        cursor: pointer;
+        padding: 6px;
+        border-radius: 4px;
+        transition-delay: 0.04s;
+      }
+
+      h2:hover {
+        background-color: #161c23;
+      }
+    }
+
+    .line {
+      height: 1px;
+      background-color: #30363d;
+      width: 100%;
+      margin: 14px 0 20px;
+    }
+
+    .box {
+      // background-color: rgb(29, 27, 27);
+      background-color: #161c23;
+      border-radius: 4px;
+      padding: 26px;
+
+      p {
+        margin: 14px 0;
+      }
+
+      span {
+        color: rgb(93, 118, 242);
+      }
+    }
+  }
+}
