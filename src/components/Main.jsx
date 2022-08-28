@@ -1,5 +1,6 @@
 import React from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { Link } from "react-router-dom";
 import lists from "../lists.json";
 
 function Main() {
@@ -30,8 +31,8 @@ function Main() {
           </div>
 
           <div className="mainLeftLists">
-            {lists.map((item) => (
-              <div className="item">
+            {lists.map((item, idx) => (
+              <div className="item" key={idx}>
                 <img
                   src="https://yt3.ggpht.com/i4-Gj-EG0gxvgRjxD5SUxHuTZ8Ogknxw7YfXJ-hCPDPALP5lrTTO7wDEXIeRkik-LIV_DOBI=s88-c-k-c0x00ffffff-no-rj-mo"
                   alt=""
@@ -41,7 +42,7 @@ function Main() {
                 </div>
               </div>
             ))}
-            <a href="#">Show more</a>
+            <Link to="/projects">Show more</Link>
           </div>
 
           {/* Line */}
