@@ -1,4 +1,6 @@
 import React from "react";
+import { IoBulbOutline } from "react-icons/io5";
+import { MdRssFeed } from "react-icons/md";
 
 function MainRight() {
   return (
@@ -22,6 +24,21 @@ function MainRight() {
             repositories you <span>watch</span> or <span>star</span> and people
             you <span>star</span>.
           </p>
+        </div>
+
+        <div className="boxCenter">
+          <div className="boxCenterFirst">
+            <IoBulbOutline />
+            <p>
+              ProTip! The feed shows you events from people you
+              <span>follow</span> and repositories you <span>watch</span> or
+              <span>star</span>.
+            </p>
+          </div>
+          <div className="boxCenterFirst">
+            <MdRssFeed />
+            <p>Subscribe to your news feed</p>
+          </div>
         </div>
       </div>
     </div>

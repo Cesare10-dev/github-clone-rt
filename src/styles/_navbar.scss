@@ -57,6 +57,10 @@
     width: 110px;
     justify-content: space-between;
 
+    > * {
+      cursor: pointer;
+    }
+
     img {
       width: 20px;
       object-fit: contain;

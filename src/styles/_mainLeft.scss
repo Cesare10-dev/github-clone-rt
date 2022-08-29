@@ -2,6 +2,7 @@
   width: 340px;
   background-color: #161c23;
   height: 540px;
+  overflow: hidden;
 
   .mainLeft {
     max-width: 240px;
@@ -109,6 +110,9 @@
         font-weight: bold;
         border: 1px solid #30363d;
         border-radius: 4px;
+      }
+      .inputBox {
+        margin-bottom: 80px;
       }
       p {
         margin: 12px auto;

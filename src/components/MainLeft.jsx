@@ -59,11 +59,13 @@ function MainLeft() {
         {/* Line */}
         <div className="line" />
 
-        <div className="recentRepo yourTeams">
+        <div className="recentRepo">
           <div className="recentRepos">
             <h2>Your teams</h2>
           </div>
-          <input type="text" placeholder="Find a team..." />
+          <div className="inputBox">
+            <input type="text" placeholder="Find a team..." />
+          </div>
         </div>
       </div>
     </div>

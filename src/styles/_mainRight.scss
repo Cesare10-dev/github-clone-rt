@@ -41,10 +41,21 @@
       p {
         margin: 14px 0;
       }
+    }
 
-      span {
-        color: rgb(93, 118, 242);
+    .boxCenter {
+      font-size: 14px;
+      margin-top: 30px;
+
+      .boxCenterFirst {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        margin-top: 10px;
       }
     }
+  }
+  span {
+    color: rgb(93, 118, 242);
   }
 }
