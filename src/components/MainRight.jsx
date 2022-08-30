@@ -11,8 +11,8 @@ function MainRight() {
           <h2>For you</h2>
         </div>
 
-        {/* Line */}
-        <div className="line" />
+        {/* LineTwo */}
+        <div className="lineTwo" />
 
         <div className="box">
           <h2>

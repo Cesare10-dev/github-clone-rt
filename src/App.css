@@ -1,0 +1,263 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161c23;
+  color: white;
+  height: 60px;
+  padding: 2px 28px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.navbar .navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar .navLeft img {
+  width: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.navbar .navLeft input {
+  width: 260px;
+  height: 34px;
+  background-color: #0c1117;
+  margin-left: 10px;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: bold;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+}
+.navbar .navLeft input:focus {
+  width: 400px;
+  transition: width ease-out 0.3s;
+}
+.navbar .navCenter {
+  flex: 1;
+  display: flex;
+  gap: 18px;
+  margin-left: 18px;
+  align-items: center;
+  color: white;
+}
+.navbar .navCenter h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar .navRight {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+}
+.navbar .navRight > * {
+  cursor: pointer;
+}
+.navbar .navRight img {
+  width: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+.navbar .navRight .navRightIcons {
+  display: flex;
+  align-items: center;
+}
+
+.mainLeftContainer {
+  width: 340px;
+  background-color: #101214;
+  height: 540px;
+  overflow: hidden;
+}
+.mainLeftContainer .mainLeft {
+  max-width: 240px;
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  scrollbar-color: transparent;
+  height: 100%;
+}
+.mainLeftContainer .mainLeft .line {
+  height: 10px;
+  background-color: red;
+  width: 100%;
+}
+.mainLeftContainer .mainLeft .mainLeftName {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.mainLeftContainer .mainLeft .mainLeftName img {
+  width: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+.mainLeftContainer .mainLeft .mainLeftName h2 {
+  font-size: 16px;
+  color: #c9d1d9;
+}
+.mainLeftContainer .mainLeft .mainLeftLists {
+  display: flex;
+  flex-direction: column;
+}
+.mainLeftContainer .mainLeft .mainLeftLists .item {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 6px 0;
+}
+.mainLeftContainer .mainLeft .mainLeftLists .item img {
+  width: 18px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+.mainLeftContainer .mainLeft .mainLeftLists .item h2 {
+  font-size: 14px;
+  color: #c9d1d9;
+}
+.mainLeftContainer .mainLeft .mainLeftLists a {
+  text-decoration: none;
+  color: #8b949e;
+  font-size: 12px;
+  margin: 14px 0 20px;
+}
+.mainLeftContainer .mainLeft .recentRepo {
+  width: 100%;
+  margin: 24px auto 8px;
+}
+.mainLeftContainer .mainLeft .recentRepo .recentRepos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainLeftContainer .mainLeft .recentRepo .recentRepos h2 {
+  font-size: 14px;
+  color: #c9d1d9;
+}
+.mainLeftContainer .mainLeft .recentRepo .recentRepos button {
+  cursor: pointer;
+  width: 64px;
+  height: 28px;
+  border: none;
+  background-color: #2a913d;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.mainLeftContainer .mainLeft .recentRepo .recentRepos button:hover {
+  background-color: #2ea043;
+}
+.mainLeftContainer .mainLeft .recentRepo input {
+  width: 100%;
+  margin: 10px 0;
+  height: 34px;
+  background-color: #0c1117;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: bold;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+}
+.mainLeftContainer .mainLeft .recentRepo .inputBox {
+  margin-bottom: 80px;
+}
+.mainLeftContainer .mainLeft .recentRepo p {
+  margin: 12px auto;
+  color: #8b949e;
+  font-size: 12px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.mainLeft::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mainLeft {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.mainRight {
+  flex: 1;
+  background-color: #010409;
+  color: #c9d1d9;
+  height: 100%;
+}
+.mainRight .marginRightContainer {
+  padding: 40px;
+}
+.mainRight .marginRightContainer .menu {
+  display: flex;
+  gap: 24px;
+}
+.mainRight .marginRightContainer .menu h2 {
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 4px;
+  transition-delay: 0.04s;
+}
+.mainRight .marginRightContainer .menu h2:hover {
+  background-color: #161c23;
+}
+.mainRight .marginRightContainer .line {
+  height: 1px;
+  background-color: #30363d;
+  width: 100%;
+  margin: 14px 0 20px;
+}
+.mainRight .marginRightContainer .box {
+  background-color: #161c23;
+  border-radius: 4px;
+  padding: 26px;
+}
+.mainRight .marginRightContainer .box p {
+  margin: 14px 0;
+}
+.mainRight .marginRightContainer .boxCenter {
+  font-size: 14px;
+  margin-top: 30px;
+}
+.mainRight .marginRightContainer .boxCenter .boxCenterFirst {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+}
+.mainRight span {
+  color: rgb(93, 118, 242);
+}
+
+.main {
+  color: white;
+  display: flex;
+  height: 1000px;
+  background-color: #010409;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: red;
+  height: 1000px;
+}/*# sourceMappingURL=App.css.map */
