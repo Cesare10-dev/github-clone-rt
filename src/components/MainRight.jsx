@@ -1,6 +1,7 @@
 import React from "react";
 import { IoBulbOutline } from "react-icons/io5";
 import { MdRssFeed } from "react-icons/md";
+import img1 from "../img/img1.jpeg";
 
 function MainRight() {
   return (
@@ -38,6 +39,34 @@ function MainRight() {
           <div className="boxCenterFirst">
             <MdRssFeed />
             <p>Subscribe to your news feed</p>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <div className="footer">
+          <div className="footerFirst">
+            <img src={img1} alt="" />
+            <h4>2022, GitHub Inc.</h4>
+          </div>
+          <div className="footerSecond">
+            <div>
+              <h4>Blog</h4>
+              <h4>About</h4>
+              <h4>Shop</h4>
+              <h4>Contact GitHub</h4>
+              <h4>Pricing</h4>
+            </div>
+            <div>
+              <h4>API</h4>
+              <h4>Training</h4>
+              <h4>Status</h4>
+              <h4>Security</h4>
+            </div>
+            <div>
+              <h4>Terms</h4>
+              <h4>Privacy</h4>
+              <h4>Docs</h4>
+            </div>
           </div>
         </div>
       </div>

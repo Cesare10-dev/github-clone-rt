@@ -33,7 +33,6 @@
     }
 
     .box {
-      // background-color: rgb(29, 27, 27);
       background-color: #161c23;
       border-radius: 4px;
       padding: 26px;
@@ -52,6 +51,24 @@
         align-items: center;
         gap: 4px;
         margin-top: 10px;
+      }
+    }
+    .footer {
+      font-size: 14px;
+      display: flex;
+
+      .footerFirst {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 24px;
+          object-fit: contain;
+        }
+      }
+
+      .footerSecond {
+        display: flex;
       }
     }
   }
