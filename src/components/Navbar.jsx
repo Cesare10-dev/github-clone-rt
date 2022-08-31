@@ -7,12 +7,6 @@ import Menu from "./Menu";
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
-  // const b = () => {
-  //   setShowMenu(!showMenu);
-  // };
-
-  // useEffect(() => {}, [showMenu]);
-
   return (
     <nav className="navbar">
       {/* Left */}
@@ -45,7 +39,7 @@ function Navbar() {
           <IoMdArrowDropdown />
         </div>
       </div>
-      {showMenu ? null : <Menu />}
+      {showMenu && <Menu />}
     </nav>
   );
 }
