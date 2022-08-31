@@ -1,3 +1,9 @@
+@mixin lines {
+  height: 1px;
+  background-color: var(--line-color);
+  width: 100%;
+  margin: 14px 0 20px;
+}
 .mainRight {
   flex: 1;
   background-color: var(--first-color);
@@ -26,10 +32,7 @@
     }
 
     .lineTwo {
-      height: 1px;
-      background-color: var(--line-color);
-      width: 100%;
-      margin: 14px 0 20px;
+      @include lines();
     }
 
     .box {

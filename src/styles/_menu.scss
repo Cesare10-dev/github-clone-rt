@@ -1,22 +1,39 @@
+@import "./mainRight";
+
 .menu {
   background-color: var(--third-color);
   position: absolute;
-  top: 48px;
+  top: 44px;
   right: 30px;
   border-radius: 10px;
   border: 1px solid var(--line-color);
-  max-width: 240px;
   font-size: 14px;
-  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .lineTwo {
-    height: 1px;
-    background-color: var(--line-color);
+  p {
+    cursor: pointer;
+    height: 30px;
     width: 100%;
-    margin: 14px 0 20px;
-  }
-}
 
-p {
-  margin: 10px;
+    &:hover {
+      background-color: rgb(0, 136, 255);
+    }
+  }
+
+  .lineThree {
+    @include lines();
+    margin: 10px 0;
+  }
+
+  .menuStatus {
+    input {
+      background-color: transparent;
+      border: 1px solid var(--line-color);
+      border-radius: 4px;
+      padding: 8px;
+    }
+  }
 }

@@ -7,10 +7,15 @@ function Menu() {
         <p>Signed in as</p>
         <p>Universe Code</p>
       </div>
-      <div className="lineTwo" />
+
+      <div className="lineThree" />
+
       <div className="menuStatus">
         <input type="text" placeholder="Set Status" />
       </div>
+
+      <div className="lineThree" />
+
       <div className="menuList">
         <p>Your profile</p>
         <p>Your repositories</p>
@@ -20,12 +25,16 @@ function Menu() {
         <p>Your stars</p>
         <p>Your gists</p>
       </div>
-      <div className="menuListTwo">
-        <p>Upgrade</p>
-        <p>Feature preview</p>
-        <p>Help</p>
-        <p>Settings</p>
-      </div>
+
+      <div className="lineThree" />
+
+      <p>Upgrade</p>
+      <p>Feature preview</p>
+      <p>Help</p>
+      <p>Settings</p>
+
+      <div className="lineThree" />
+
       <p>Sign out</p>
     </div>
   );
