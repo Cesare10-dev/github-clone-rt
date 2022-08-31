@@ -9,10 +9,15 @@
 
 :root {
   --first-color: #010409;
-  --second-color: #101214;
+  --second-color: #0d1118;
   --third-color: #161c23;
   --grey-color: #c9d1d9;
   --grey-two-color: #8b949e;
   --line-color: #30363d;
   --input-color: #0c1117;
+}
+
+.App {
+  height: 100vh;
+  background-color: var(--first-color);
 }

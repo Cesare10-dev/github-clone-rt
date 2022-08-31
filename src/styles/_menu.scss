@@ -1,0 +1,22 @@
+.menu {
+  background-color: var(--third-color);
+  position: absolute;
+  top: 48px;
+  right: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--line-color);
+  max-width: 240px;
+  font-size: 14px;
+  padding: 14px;
+
+  .lineTwo {
+    height: 1px;
+    background-color: var(--line-color);
+    width: 100%;
+    margin: 14px 0 20px;
+  }
+}
+
+p {
+  margin: 10px;
+}

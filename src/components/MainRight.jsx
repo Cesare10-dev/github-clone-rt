@@ -8,7 +8,7 @@ function MainRight() {
   return (
     <div className="mainRight">
       <div className="marginRightContainer">
-        <div className="menu">
+        <div className="mainRightText">
           <h2>Following</h2>
           <h2>For you</h2>
         </div>
