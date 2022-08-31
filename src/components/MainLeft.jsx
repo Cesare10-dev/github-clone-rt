@@ -25,7 +25,9 @@ function MainLeft() {
             <h2>Recent Repositories</h2>
             <button>New</button>
           </div>
-          <input type="text" placeholder="Find a repositories..." />
+          <div className="inputBox">
+            <input type="text" placeholder="Find a repositories..." />
+          </div>
         </div>
 
         <div className="mainLeftLists">
@@ -63,7 +65,7 @@ function MainLeft() {
           <div className="recentRepos">
             <h2>Your teams</h2>
           </div>
-          <div className="inputBox">
+          <div className="inputBoxTwo">
             <input type="text" placeholder="Find a team..." />
           </div>
         </div>

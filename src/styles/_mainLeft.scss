@@ -5,7 +5,7 @@
   overflow: hidden;
 
   .mainLeft {
-    max-width: 240px;
+    max-width: 260px;
     width: 100%;
     margin: 30px auto;
     display: flex;
@@ -14,6 +14,7 @@
     overflow-y: scroll;
     scrollbar-color: transparent;
     height: 100%;
+    padding: 1px;
 
     .line {
       padding: 1px;
@@ -74,6 +75,10 @@
       width: 100%;
       margin: 24px auto 8px;
 
+      .inputBox {
+        padding: 2px;
+      }
+
       .recentRepos {
         display: flex;
         align-items: center;
@@ -102,7 +107,7 @@
 
       input {
         width: 100%;
-        margin: 10px 0;
+        margin: 10px auto;
         height: 34px;
         background-color: #0c1117;
         font-size: 14px;
@@ -111,8 +116,9 @@
         border: 1px solid #30363d;
         border-radius: 4px;
       }
-      .inputBox {
+      .inputBoxTwo {
         margin-bottom: 80px;
+        padding: 2px;
       }
       p {
         margin: 12px auto;

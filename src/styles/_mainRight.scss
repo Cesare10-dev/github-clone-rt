@@ -36,9 +36,24 @@
       background-color: #161c23;
       border-radius: 4px;
       padding: 26px;
+      border: 1px solid rgb(80, 80, 80);
 
       p {
-        margin: 14px 0;
+        margin: 16px 0;
+      }
+
+      .btn {
+        background-color: #161c23;
+        border-radius: 4px;
+        border: 1px solid rgb(80, 80, 80);
+        padding: 7px 14px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(47, 114, 229);
       }
     }
 
@@ -54,12 +69,17 @@
       }
     }
     .footer {
-      font-size: 14px;
+      font-size: 12px;
       display: flex;
+      justify-content: space-between;
+      max-width: 800px;
+      margin-top: 30px;
 
       .footerFirst {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
+        height: 100%;
 
         img {
           width: 24px;
@@ -69,10 +89,19 @@
 
       .footerSecond {
         display: flex;
+        flex: 1;
+        justify-content: space-around;
+        max-width: 480px;
+
+        .footerSecondInside {
+          h4 {
+            margin: 10px;
+          }
+        }
       }
     }
   }
   span {
-    color: rgb(93, 118, 242);
+    color: rgb(47, 114, 229);
   }
 }

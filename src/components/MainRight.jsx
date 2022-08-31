@@ -1,6 +1,7 @@
 import React from "react";
 import { IoBulbOutline } from "react-icons/io5";
 import { MdRssFeed } from "react-icons/md";
+import { Link } from "react-router-dom";
 import img1 from "../img/img1.jpeg";
 
 function MainRight() {
@@ -25,6 +26,10 @@ function MainRight() {
             repositories you <span>watch</span> or <span>star</span> and people
             you <span>star</span>.
           </p>
+
+          <button className="btn">
+            <Link to="/projects">Explore GitHub</Link>
+          </button>
         </div>
 
         <div className="boxCenter">
@@ -49,26 +54,28 @@ function MainRight() {
             <h4>2022, GitHub Inc.</h4>
           </div>
           <div className="footerSecond">
-            <div>
+            <div className="footerSecondInside">
               <h4>Blog</h4>
               <h4>About</h4>
               <h4>Shop</h4>
               <h4>Contact GitHub</h4>
               <h4>Pricing</h4>
             </div>
-            <div>
+            <div className="footerSecondInside">
               <h4>API</h4>
               <h4>Training</h4>
               <h4>Status</h4>
               <h4>Security</h4>
             </div>
-            <div>
+            <div className="footerSecondInside">
               <h4>Terms</h4>
               <h4>Privacy</h4>
               <h4>Docs</h4>
             </div>
           </div>
         </div>
+
+        <div className="lineTwo" />
       </div>
     </div>
   );
