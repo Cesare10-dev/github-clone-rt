@@ -7,7 +7,12 @@
   box-sizing: border-box;
 }
 
-.App {
-  background-color: #010409;
-  height: 100vh;
+:root {
+  --first-color: #010409;
+  --second-color: #101214;
+  --third-color: #161c23;
+  --grey-color: #c9d1d9;
+  --grey-two-color: #8b949e;
+  --line-color: #30363d;
+  --input-color: #0c1117;
 }

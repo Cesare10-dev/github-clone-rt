@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #161c23;
+  background-color: var(--third-color);
   color: white;
   height: 60px;
   padding: 2px 28px;
@@ -22,12 +22,12 @@
     input {
       width: 260px;
       height: 34px;
-      background-color: #0c1117;
+      background-color: var(--input-color);
       margin-left: 10px;
       font-size: 14px;
       padding-left: 10px;
       font-weight: bold;
-      border: 1px solid #30363d;
+      border: 1px solid var(--line-color);
       border-radius: 4px;
     }
 
