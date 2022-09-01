@@ -1,3 +1,40 @@
+@import "../styles/left";
+
 .profile {
   color: white;
+
+  nav {
+    max-width: 610px;
+    // border: 1px solid red;
+    margin: 40px auto 0;
+    display: flex;
+    gap: 24px;
+
+    .profileIcon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--third-color);
+      }
+
+      h2 {
+        font-size: 14px;
+        margin-left: 4px;
+        transition-delay: 0.04s;
+      }
+    }
+  }
+
+  .lineFour {
+    @include lines();
+  }
+
+  .sectionCenter {
+    display: flex;
+  }
 }

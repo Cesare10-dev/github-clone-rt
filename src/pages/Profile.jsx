@@ -1,18 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Left from "../components/Left";
+import { AiOutlineInbox } from "react-icons/ai";
+import { TbBook, TbBook2 } from "react-icons/tb";
+import { FiBox, FiStar } from "react-icons/fi";
 
 function Profile() {
   return (
     <div className="profile">
       <nav>
-        <ul>
-          <li>Overview</li>
-          <li>Repositories</li>
-          <li>Projects</li>
-          <li>Packages</li>
-          <li>Stars</li>
-        </ul>
+        <div className="profileIcon">
+          <TbBook />
+          <h2>Overview</h2>
+        </div>
+        <div className="profileIcon">
+          <TbBook2 />
+          <h2>Repositories</h2>
+        </div>
+        <div className="profileIcon">
+          <AiOutlineInbox />
+          <h2>Projects</h2>
+        </div>
+        <div className="profileIcon">
+          <FiBox />
+          <h2>Packages</h2>
+        </div>
+        <div className="profileIcon">
+          <FiStar />
+          <h2>Stars</h2>
+        </div>
       </nav>
+
+      <div className="lineFour" />
+
+      <div className="sectionCenter">
+        <Left />
+      </div>
       <Link to="/">Home</Link>
     </div>
   );
