@@ -4,6 +4,7 @@ import Left from "../components/Left";
 import { AiOutlineInbox } from "react-icons/ai";
 import { TbBook, TbBook2 } from "react-icons/tb";
 import { FiBox, FiStar } from "react-icons/fi";
+import Overview from "../components/Overview";
 
 function Profile() {
   return (
@@ -35,6 +36,7 @@ function Profile() {
 
       <div className="sectionCenter">
         <Left />
+        <Overview />
       </div>
       <Link to="/">Home</Link>
     </div>
