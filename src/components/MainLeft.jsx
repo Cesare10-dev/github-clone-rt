@@ -42,7 +42,7 @@ function MainLeft() {
               </div>
             </div>
           ))}
-          <Link to="/projects">Show more</Link>
+          <Link to="/profile">Show more</Link>
         </div>
 
         {/* Line */}

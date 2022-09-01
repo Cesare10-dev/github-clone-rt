@@ -2,23 +2,23 @@ import "./App.scss";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Projects from "./components/Projects";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Navbar />
         <Routes>
           <Route
             path="/"
             element={
               <>
-                <Navbar />
                 <Main />
               </>
             }
           />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </div>
     </BrowserRouter>

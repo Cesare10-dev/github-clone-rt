@@ -18,7 +18,7 @@ function MainRight() {
 
         <div className="box">
           <h2>
-            Discover interesting projects and people to populate your personal
+            Discover interesting Profile and people to populate your personal
             news feed.
           </h2>
           <p>
@@ -28,7 +28,7 @@ function MainRight() {
           </p>
 
           <button className="btn">
-            <Link to="/projects">Explore GitHub</Link>
+            <Link to="/profile">Explore GitHub</Link>
           </button>
         </div>
 
