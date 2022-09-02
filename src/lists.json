@@ -1,26 +1,44 @@
 [
   {
     "name": "Universe Code",
-    "repo": "youtube-clone"
+    "repo": "youtube-clone",
+    "type": "Public",
+    "color": "yellow",
+    "stack": "JavaScript"
   },
   {
     "name": "Universe Code",
-    "repo": "dribble-clone"
+    "repo": "dribble-clone",
+    "type": "Public",
+    "color": "grey",
+    "stack": "Next.js"
   },
   {
     "name": "Universe Code",
-    "repo": "udemy-clone"
+    "repo": "udemy-clone",
+    "type": "Public",
+    "color": "red",
+    "stack": "Html"
   },
   {
     "name": "Universe Code",
-    "repo": "portfolio-htmlcss"
+    "repo": "portfolio-htmlcss",
+    "type": "Public",
+    "color": "purple",
+    "stack": "Css"
   },
   {
     "name": "Universe Code",
-    "repo": "portfolio"
+    "repo": "portfolio",
+    "type": "Public",
+    "color": "yellow",
+    "stack": "JavaScript"
   },
   {
     "name": "Universe Code",
-    "repo": "portfolio"
+    "repo": "portfolio",
+    "type": "Public",
+    "color": "blue",
+    "stack": "React"
   }
 ]

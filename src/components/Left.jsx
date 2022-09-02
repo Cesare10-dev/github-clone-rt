@@ -13,6 +13,11 @@ function Left() {
           <MdInsertEmoticon className="emoticon" />
         </div>
       </div>
+
+      <div className="leftDetails">
+        <h2>Universe Code</h2>
+        <button>Edit profile</button>
+      </div>
     </div>
   );
 }

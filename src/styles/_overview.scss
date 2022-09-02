@@ -1,4 +1,30 @@
 .overview {
-  flex: 1;
   border: 1px solid red;
+  width: 800px;
+  margin-left: 300px;
+
+  .overviewDescription {
+    border: 1px solid rgb(80, 80, 80);
+    padding: 10px;
+    height: 300px;
+
+    & > * {
+      margin: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .line {
+      @include lines();
+    }
+  }
 }
