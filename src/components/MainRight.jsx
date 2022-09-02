@@ -18,17 +18,16 @@ function MainRight() {
 
         <div className="box">
           <h2>
-            Discover interesting Profile and people to populate your personal
-            news feed.
+            Hey everyone, welcome ... This is GitHub clone with React.js and
+            sass
           </h2>
           <p>
-            Your news feed helps you keep up with recent activity on
-            repositories you <span>watch</span> or <span>star</span> and people
-            you <span>star</span>.
+            Follow me <span>YouTube</span> <span>Twitter</span> and{" "}
+            <span>Instagram</span>
           </p>
 
           <button className="btn">
-            <Link to="/profile">Explore GitHub</Link>
+            <Link to="/profile">Explore GitHub Clone</Link>
           </button>
         </div>
 
