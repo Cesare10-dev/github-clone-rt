@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -17,7 +18,9 @@ function Menu() {
 
         <div className="lineThree" />
 
-        <p>Your profile</p>
+        <p>
+          <Link to="/profile">Your profile</Link>
+        </p>
         <p>Your repositories</p>
         <p>Your codespaces</p>
         <p>Your organizations</p>

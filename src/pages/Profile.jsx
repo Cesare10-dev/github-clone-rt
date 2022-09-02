@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Left from "../components/Left";
 import { AiOutlineInbox } from "react-icons/ai";
 import { TbBook, TbBook2 } from "react-icons/tb";
@@ -40,7 +39,6 @@ function Profile() {
         <div className="sectionCenter">
           <Overview />
         </div>
-        {/* <Link to="/">Home</Link> */}
       </div>
     </>
   );

@@ -36,10 +36,10 @@
     }
 
     .box {
-      background-color: var(--btn-color);
+      background-color: var() --input-color;
       border-radius: 4px;
       padding: 26px;
-      border: 1px solid rgb(80, 80, 80);
+      border: 1px solid var(--border-color);
 
       p {
         margin: 16px 0;
@@ -56,7 +56,7 @@
 
       a {
         text-decoration: none;
-        color: rgb(47, 114, 229);
+        color: var(--text-blue-color);
       }
     }
 
@@ -83,6 +83,7 @@
         align-items: center;
         justify-content: flex-start;
         height: 100%;
+        gap: 4px;
 
         img {
           width: 24px;
@@ -99,12 +100,13 @@
         .footerSecondInside {
           h4 {
             margin: 10px;
+            cursor: pointer;
           }
         }
       }
     }
   }
   span {
-    color: rgb(47, 114, 229);
+    color: var(--text-blue-color);
   }
 }

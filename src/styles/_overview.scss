@@ -48,11 +48,16 @@
         border: 1px solid var(--border-color);
         border-radius: 8px;
         margin-bottom: 20px;
+        padding: 14px;
 
         .repositoriesTop {
           display: flex;
           align-items: center;
           justify-content: space-between;
+
+          h3 {
+            color: var(--text-blue-color);
+          }
         }
       }
     }

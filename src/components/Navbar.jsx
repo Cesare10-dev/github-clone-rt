@@ -3,6 +3,7 @@ import img1 from "../img/img1.jpeg";
 import { FiBell, FiPlus } from "react-icons/fi";
 import { IoMdArrowDropdown } from "react-icons/io";
 import Menu from "./Menu";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -11,7 +12,10 @@ function Navbar() {
     <nav className="navbar">
       {/* Left */}
       <div className="navLeft">
-        <img src={img1} alt="" />
+        <Link to="/">
+          <img src={img1} alt="" />
+        </Link>
+
         <div>
           <input type="text" placeholder="Search or jump to..." />
         </div>
