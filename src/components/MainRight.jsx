@@ -18,16 +18,16 @@ function MainRight() {
 
         <div className="box">
           <h2>
-            Hey everyone, welcome ... This is GitHub clone with React.js and
-            sass
+            Welcome ... This is GitHub clone with React.js, Sass and React
+            Router
           </h2>
           <p>
-            Follow me <span>YouTube</span> <span>Twitter</span> and{" "}
+            Follow me on <span>YouTube</span>, <span>Twitter</span> and{" "}
             <span>Instagram</span>
           </p>
 
           <button className="btn">
-            <Link to="/profile">Explore GitHub Clone</Link>
+            <Link to="/profile">GitHub Clone</Link>
           </button>
         </div>
 
@@ -35,14 +35,13 @@ function MainRight() {
           <div className="boxCenterFirst">
             <IoBulbOutline />
             <p>
-              ProTip! The feed shows you events from people you
-              <span>follow</span> and repositories you <span>watch</span> or
-              <span>star</span>.
+              On my channel there are videos with <span>React</span>,
+              <span>Next.js</span>, <span>Tailwind Css</span> Html and Css ...
             </p>
           </div>
           <div className="boxCenterFirst">
             <MdRssFeed />
-            <p>Subscribe to your news feed</p>
+            <p>Subscribe to the channel, to stay updated</p>
           </div>
         </div>
 
@@ -50,14 +49,14 @@ function MainRight() {
         <div className="footer">
           <div className="footerFirst">
             <img src={img1} alt="" />
-            <h4>2022, GitHub Inc.</h4>
+            <h4>GitHub Clone</h4>
           </div>
           <div className="footerSecond">
             <div className="footerSecondInside">
               <h4>Blog</h4>
               <h4>About</h4>
               <h4>Shop</h4>
-              <h4>Contact GitHub</h4>
+              <h4>GitHub Clone</h4>
               <h4>Pricing</h4>
             </div>
             <div className="footerSecondInside">

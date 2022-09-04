@@ -52,10 +52,7 @@ function MainLeft() {
           <div className="recentRepos">
             <h2>Recent Activities</h2>
           </div>
-          <p>
-            When you take actions across GitHub, we’ll provide links to that
-            activity here.
-          </p>
+          <p>Thanks for watching</p>
         </div>
 
         {/* Line */}

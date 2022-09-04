@@ -22,11 +22,14 @@ function Overview() {
           <h2>Popular repositories </h2>
         </div>
         <div className="repositoriesContainer">
-          {lists.map((repo) => (
-            <div className="repositoriesBox">
+          {lists.map((repo, i, { c }) => (
+            <div className="repositoriesBox" key={i}>
               <div className="repositoriesTop">
                 <h3>{repo.repo}</h3>
                 <p>{repo.status}</p>
+              </div>
+              <div className="repositoriesBottom">
+                <p>{repo.stack}</p>
               </div>
             </div>
           ))}

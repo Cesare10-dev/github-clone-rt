@@ -1,8 +1,5 @@
 .left {
-  width: 300px;
-  position: absolute;
-  top: 120px;
-  left: 260px;
+  width: 310px;
 
   .image {
     height: 220px;
@@ -43,7 +40,7 @@
     color: white;
 
     h2 {
-      font-size: 28px;
+      font-size: 26px;
       margin: 24px 0;
     }
 
@@ -57,6 +54,7 @@
       background-color: var(--btn-color);
       border: 1px solid rgb(80, 80, 80);
       color: white;
+      cursor: pointer;
     }
   }
 }
