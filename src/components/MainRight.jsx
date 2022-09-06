@@ -7,7 +7,7 @@ import img1 from "../img/img1.jpeg";
 function MainRight() {
   return (
     <div className="mainRight">
-      <div className="marginRightContainer">
+      <div className="mainRightContainer">
         <div className="mainRightText">
           <h2>Following</h2>
           <h2>For you</h2>

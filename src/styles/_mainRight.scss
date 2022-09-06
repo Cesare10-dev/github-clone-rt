@@ -10,7 +10,7 @@
   color: var(--grey-color);
   height: 100vh;
 
-  .marginRightContainer {
+  .mainRightContainer {
     padding: 40px;
 
     .mainRightText {
@@ -36,7 +36,7 @@
     }
 
     .box {
-      background-color: var() --input-color;
+      background-color: var(--input-color);
       border-radius: 4px;
       padding: 26px;
       border: 1px solid var(--border-color);
