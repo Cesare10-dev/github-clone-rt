@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img1 from "../img/img1.jpeg";
+import img2 from "../img/img1.jpeg";
 import { FiBell, FiPlus } from "react-icons/fi";
 import { IoMdArrowDropdown } from "react-icons/io";
 import Menu from "./Menu";
@@ -13,7 +13,7 @@ function Navbar() {
       {/* Left */}
       <div className="navLeft">
         <Link to="/">
-          <img src={img1} alt="" />
+          <img src={img2} alt="" />
         </Link>
 
         <div>
@@ -36,10 +36,7 @@ function Navbar() {
           <IoMdArrowDropdown />
         </div>
         <div className="navRightIcons" onClick={() => setShowMenu(!showMenu)}>
-          <img
-            src="https://yt3.ggpht.com/i4-Gj-EG0gxvgRjxD5SUxHuTZ8Ogknxw7YfXJ-hCPDPALP5lrTTO7wDEXIeRkik-LIV_DOBI=s88-c-k-c0x00ffffff-no-rj-mo"
-            alt=""
-          />
+          <img src={img2} alt="" />
           <IoMdArrowDropdown />
         </div>
       </div>

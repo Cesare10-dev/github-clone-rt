@@ -2,7 +2,7 @@ import React from "react";
 import { IoBulbOutline } from "react-icons/io5";
 import { MdRssFeed } from "react-icons/md";
 import { Link } from "react-router-dom";
-import img1 from "../img/img1.jpeg";
+import img2 from "../img/img1.jpeg";
 
 function MainRight() {
   return (
@@ -22,8 +22,9 @@ function MainRight() {
             Router
           </h2>
           <p>
-            Follow me on <span>YouTube</span>, <span>Twitter</span> and{" "}
-            <span>Instagram</span>
+            Click on <span>Logo on the left</span>,{" "}
+            <span>Logo on the rigth to show the menu</span> and{" "}
+            <span>on GitHub Clone button</span>
           </p>
 
           <button className="btn">
@@ -48,7 +49,7 @@ function MainRight() {
         {/* Footer */}
         <div className="footer">
           <div className="footerFirst">
-            <img src={img1} alt="" />
+            <img src={img2} alt="" />
             <h4>GitHub Clone</h4>
           </div>
           <div className="footerSecond">

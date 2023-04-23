@@ -1,12 +1,11 @@
-import React from "react";
 import lists from "../lists.json";
 
 function Overview() {
   return (
     <div className="overview">
       <div className="overviewDescription">
-        <p>Universe Code / README.md</p>
-        <h1>Hi I'm Cesare, Universe Code</h1>
+        <p>Cesare / README.md</p>
+        <h1>Hi I'm Cesare</h1>
         <div className="line" />
         <h2>A React Developer</h2>
         <p>

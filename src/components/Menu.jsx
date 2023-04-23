@@ -7,7 +7,7 @@ function Menu() {
       <div className="menuContainer">
         <p>
           Signed in as <br />
-          Universe Code
+          Cesare
         </p>
 
         <div className="lineThree" />

@@ -5,17 +5,14 @@ function Left() {
   return (
     <div className="left">
       <div className="image">
-        <img
-          src="https://yt3.ggpht.com/i4-Gj-EG0gxvgRjxD5SUxHuTZ8Ogknxw7YfXJ-hCPDPALP5lrTTO7wDEXIeRkik-LIV_DOBI=s88-c-k-c0x00ffffff-no-rj-mo"
-          alt=""
-        />
+        <img src="img2" alt="" />
         <div className="emoticonBox">
           <MdInsertEmoticon className="emoticon" />
         </div>
       </div>
 
       <div className="leftDetails">
-        <h2>Universe Code</h2>
+        <h2>Cesare</h2>
         <button>Edit profile</button>
       </div>
     </div>
