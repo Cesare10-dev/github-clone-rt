@@ -2,7 +2,7 @@ import React from "react";
 import { IoBulbOutline } from "react-icons/io5";
 import { MdRssFeed } from "react-icons/md";
 import { Link } from "react-router-dom";
-import img2 from "../img/img1.jpeg";
+import img1 from "../img/img1.jpeg";
 
 function MainRight() {
   return (
@@ -49,7 +49,7 @@ function MainRight() {
         {/* Footer */}
         <div className="footer">
           <div className="footerFirst">
-            <img src={img2} alt="" />
+            <img src={img1} alt="" />
             <h4>GitHub Clone</h4>
           </div>
           <div className="footerSecond">
